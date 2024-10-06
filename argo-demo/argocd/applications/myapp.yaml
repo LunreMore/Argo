@@ -4,7 +4,7 @@ metadata:
   name: myapp
   namespace: argocd
 spec:
-  project: demo
+  project: default
   source:
     repoURL: https://github.com/LunreMore/Argo
     targetRevision: HEAD
